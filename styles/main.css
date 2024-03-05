@@ -1,4 +1,4 @@
-@import "detail.css";
+@import "details.css";
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
 /*Typography
@@ -19,3 +19,15 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
+.details {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.detail--column {
+    flex: 1; /* Each column takes equal space, adjust as needed */
+    max-width: 30%; /* Adjust the maximum width of each column as needed */
+}
+
+/* <article class="details">
+/* <section class="detail--column list details__walkers">

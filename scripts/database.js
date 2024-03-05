@@ -5,6 +5,7 @@
     modules to get copies of the state.
 
 */
+
 const database = {
     walkers: [{
         id: 1,
